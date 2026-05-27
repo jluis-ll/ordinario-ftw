@@ -1,2 +1,2 @@
 # ordinario-ftw
-#prueba_nicial
+#prueba_inicial
