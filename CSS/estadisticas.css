@@ -143,3 +143,10 @@ nav a:hover {
     margin-top: 5px;
     color: #555;
 }
+
+footer{
+    background-color: #0d1b2a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,15 +1,15 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
+body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f5f5f5;
 }
 
-header {
+header{
     background-color: #0d1b2a;
     color: white;
     padding: 20px 50px;
@@ -19,90 +19,72 @@ header {
     align-items: center;
 }
 
-.logo h1 {
+.logo h1{
     font-size: 35px;
 }
 
-nav {
+nav{
     display: flex;
     gap: 30px;
 }
 
-nav a {
+nav a{
     color: white;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
 }
 
-nav a:hover {
-    color: #c7d3e0;
-}
-
-.titulo-autores {
+.titulo-favoritos{
     text-align: center;
     padding: 45px 20px;
 }
 
-.titulo-autores h2 {
+.titulo-favoritos h2{
     font-size: 42px;
     color: #0d1b2a;
 }
 
-.titulo-autores p {
+.titulo-favoritos p{
     font-size: 20px;
     color: #555;
     margin-top: 10px;
 }
 
-.contenedor-autores {
-    display: flex;
-    justify-content: center;
-    gap: 35px;
-    flex-wrap: wrap;
-
-    padding: 20px 60px 60px;
-}
-
-.autor {
+.tabla-favoritos{
+    width: 85%;
+    margin: 20px auto 60px;
     background-color: white;
-    width: 330px;
     padding: 25px;
     border-radius: 12px;
 }
 
-.autor h3 {
-    font-size: 28px;
-    color: #0d1b2a;
-    margin-bottom: 10px;
+.tabla-favoritos table{
+    width: 100%;
+    border-collapse: collapse;
 }
 
-.autor p {
-    font-size: 17px;
-    color: #444;
-    line-height: 1.5;
-    margin-bottom: 12px;
+.tabla-favoritos th{
+    background-color: #0d1b2a;
+    color: white;
+    padding: 15px;
+    text-align: left;
 }
 
-.autor h4 {
-    font-size: 19px;
-    color: #0d1b2a;
-    margin-top: 15px;
-    margin-bottom: 8px;
+.tabla-favoritos td{
+    padding: 14px;
+    border-bottom: 1px solid #ddd;
+    color: #333;
 }
 
-.autor ul {
-    padding-left: 20px;
-}
-
-.autor li {
-    color: #555;
-    font-size: 16px;
+.tabla-favoritos tr:hover{
+    background-color: #f0f4f8;
 }
 
 footer{
     background-color: #0d1b2a;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 18px;
+    margin-top: 40px;
 }

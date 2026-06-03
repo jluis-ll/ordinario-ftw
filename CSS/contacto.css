@@ -35,74 +35,74 @@ nav a {
     font-weight: bold;
 }
 
-nav a:hover {
-    color: #c7d3e0;
-}
-
-.titulo-autores {
+.titulo-contacto {
     text-align: center;
     padding: 45px 20px;
 }
 
-.titulo-autores h2 {
+.titulo-contacto h2 {
     font-size: 42px;
     color: #0d1b2a;
 }
 
-.titulo-autores p {
+.titulo-contacto p {
     font-size: 20px;
     color: #555;
     margin-top: 10px;
 }
 
-.contenedor-autores {
+.contenedor-contacto {
     display: flex;
     justify-content: center;
-    gap: 35px;
-    flex-wrap: wrap;
-
     padding: 20px 60px 60px;
 }
 
-.autor {
+.formulario {
     background-color: white;
-    width: 330px;
-    padding: 25px;
+    width: 500px;
+    padding: 30px;
     border-radius: 12px;
 }
 
-.autor h3 {
-    font-size: 28px;
+.formulario label {
+    display: block;
+    font-size: 18px;
     color: #0d1b2a;
-    margin-bottom: 10px;
-}
-
-.autor p {
-    font-size: 17px;
-    color: #444;
-    line-height: 1.5;
-    margin-bottom: 12px;
-}
-
-.autor h4 {
-    font-size: 19px;
-    color: #0d1b2a;
-    margin-top: 15px;
+    font-weight: bold;
     margin-bottom: 8px;
 }
 
-.autor ul {
-    padding-left: 20px;
-}
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
 
-.autor li {
-    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
     font-size: 16px;
 }
 
-footer{
+.formulario button {
+    width: 100%;
+    background-color: #0d1b2a;
+    color: white;
+
+    border: none;
+    padding: 13px;
+
+    border-radius: 8px;
+
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
     background-color: #0d1b2a;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 18px;
+    margin-top: 40px;
 }
