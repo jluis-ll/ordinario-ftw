@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "libros.dtd">
+
+<biblioteca>
+
+    <libro>
+        <id>1</id>
+        <titulo>El retrato de Dorian Gray</titulo>
+        <autor>Oscar Wilde</autor>
+        <genero>Novela</genero>
+        <año>1890</año>
+        <editorial>Lippincott's Monthly Magazine</editorial>
+        <paginas>254</paginas>
+        <vistas>2450</vistas>
+        <imagen>../IMG/retrato.jpg</imagen>
+        <descripcion>Historia de un joven que desea conservar su belleza mientras un retrato envejece en su lugar.</descripcion>
+    </libro>
+
+    <libro>
+        <id>2</id>
+        <titulo>El laberinto de la soledad</titulo>
+        <autor>Octavio Paz</autor>
+        <genero>Ensayo</genero>
+        <año>1950</año>
+        <editorial>Cuadernos Americanos</editorial>
+        <paginas>351</paginas>
+        <vistas>1980</vistas>
+        <imagen>../IMG/laberinto.jpg</imagen>
+        <descripcion>Ensayo que analiza la identidad mexicana, su historia, cultura y formas de pensamiento.</descripcion>
+    </libro>
+
+    <libro>
+        <id>3</id>
+        <titulo>El principito</titulo>
+        <autor>Antoine de Saint-Exupéry</autor>
+        <genero>Fábula</genero>
+        <año>1943</año>
+        <editorial>Reynal and Hitchcock</editorial>
+        <paginas>96</paginas>
+        <vistas>1750</vistas>
+        <imagen>../IMG/principito.jpg</imagen>
+        <descripcion>Relato poético sobre un pequeño príncipe que viaja por distintos planetas y reflexiona sobre la vida.</descripcion>
+    </libro>
+
+</biblioteca>

@@ -55,52 +55,39 @@ nav a:hover {
     margin-top: 10px;
 }
 
-.contenedor-autores {
-    display: flex;
-    justify-content: center;
-    gap: 35px;
-    flex-wrap: wrap;
 
-    padding: 20px 60px 60px;
-}
-
-.autor {
+.tabla-autores {
+    width: 85%;
+    margin: 20px auto 60px;
     background-color: white;
-    width: 330px;
     padding: 25px;
     border-radius: 12px;
 }
 
-.autor h3 {
-    font-size: 28px;
-    color: #0d1b2a;
-    margin-bottom: 10px;
+.tabla-autores table {
+    width: 100%;
+    border-collapse: collapse;
 }
 
-.autor p {
-    font-size: 17px;
-    color: #444;
-    line-height: 1.5;
-    margin-bottom: 12px;
+.tabla-autores th {
+    background-color: #0d1b2a;
+    color: white;
+    padding: 15px;
+    text-align: left;
 }
 
-.autor h4 {
-    font-size: 19px;
-    color: #0d1b2a;
-    margin-top: 15px;
-    margin-bottom: 8px;
+.tabla-autores td {
+    padding: 14px;
+    border-bottom: 1px solid #ddd;
+    color: #333;
 }
 
-.autor ul {
-    padding-left: 20px;
+.tabla-autores tr:hover {
+    background-color: #f0f4f8;
 }
 
-.autor li {
-    color: #555;
-    font-size: 16px;
-}
 
-footer{
+footer {
     background-color: #0d1b2a;
     color: white;
     text-align: center;

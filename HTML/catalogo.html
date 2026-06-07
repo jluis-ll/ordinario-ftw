@@ -27,6 +27,9 @@
             <h2>Catálogo de libros</h2>
             <p>Explora los libros disponibles en la biblioteca.</p>
         </section>
+        <section class="busqueda">
+            <input type="text" id="buscarLibro" placeholder="Buscar libro por título...">
+        </section>
         <section class="tabla-catalogo">
             <table>
                 <thead>
@@ -38,35 +41,14 @@
                         <th>Año</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td><img src="../IMG/retrato.jpg" alt="Portada de El retrato de Dorian Gray"></td>
-                        <td>El retrato de Dorian Gray</td>
-                        <td>Oscar Wilde</td>
-                        <td>Novela</td>
-                        <td>1890</td>
-                    </tr>
-                    <tr>
-                        <td><img src="../IMG/laberinto.jpg" alt="Portada de El laberinto de la soledad"></td>
-                        <td>El laberinto de la soledad</td>
-                        <td>Octavio Paz</td>
-                        <td>Ensayo</td>
-                        <td>1950</td>
-                    </tr>
-                    <tr>
-                        <td><img src="../IMG/principito.jpg" alt="Portada de El principito"></td>
-                        <td>El principito</td>
-                        <td>Antoine de Saint-Exupéry</td>
-                        <td>Fábula</td>
-                        <td>1943</td>
-                    </tr>
-                </tbody>
+                <tbody id="tablaLibros"></tbody>
             </table>
         </section>
     </main>
     <footer>
         <p>Biblioteca Digital</p>
     </footer>
+    <script src="../JavaScript/catalogo.js"></script>
 </body>
 
 </html>

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estadísticas</title>
     <link rel="stylesheet" href="../CSS/estadisticas.css">
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -27,49 +29,37 @@
         </section>
         <section class="tarjetas">
             <div class="tarjeta">
-                <h4>3</h4>
+                <h4 id="totalLibros">0</h4>
                 <p>Total de libros</p>
             </div>
             <div class="tarjeta">
-                <h4>3</h4>
+                <h4 id="totalAutores">0</h4>
                 <p>Total de autores</p>
             </div>
             <div class="tarjeta">
-                <h4>2450</h4>
+                <h4 id="libroMasVisto"></h4>
                 <p>Libro más visto</p>
             </div>
             <div class="tarjeta">
-                <h4>Novela</h4>
+                <h4 id="generoPrincipal">---</h4>
                 <p>Género principal</p>
             </div>
         </section>
+        </section>
         <section class="mas-vistos">
-            <h2>Libros más vistos</h2>
-            <div class="barra">
-                <p>El retrato de Dorian Gray</p>
-                <div class="progreso">
-                    <div class="relleno relleno1"></div>
+            <section class="mas-vistos">
+                <h2>Libros más vistos</h2>
+                <div id="contenedorBarras">
                 </div>
-                <span>2450 vistas</span>
-            </div>
-            <div class="barra">
-                <p>El laberinto de la soledad</p>
-                <div class="progreso">
-                    <div class="relleno relleno2"></div>
-                </div>
-                <span>1980 vistas</span>
-            </div>
-            <div class="barra">
-                <p>El principito</p>
-                <div class="progreso">
-                    <div class="relleno relleno3"></div>
-                </div>
-                <span>1750 vistas</span>
-            </div>
+            </section>
         </section>
     </main>
     <footer>
         <p>Biblioteca Digital</p>
     </footer>
+
+    <script src="../JavaScript/estadisticas.js"></script>
+    
 </body>
+
 </html>

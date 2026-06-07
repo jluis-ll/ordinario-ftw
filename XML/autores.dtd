@@ -1,0 +1,10 @@
+<!ELEMENT autores (autor+)>
+
+<!ELEMENT autor (id, nombre, nacionalidad, nacimiento, obra, biografia)>
+
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT nacionalidad (#PCDATA)>
+<!ELEMENT nacimiento (#PCDATA)>
+<!ELEMENT obra (#PCDATA)>
+<!ELEMENT biografia (#PCDATA)>

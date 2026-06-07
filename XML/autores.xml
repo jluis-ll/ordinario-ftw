@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE autores SYSTEM "autores.dtd">
+
+<autores>
+
+    <autor>
+        <id>1</id>
+        <nombre>Oscar Wilde</nombre>
+        <nacionalidad>Irlandés</nacionalidad>
+        <nacimiento>1854</nacimiento>
+        <obra>El retrato de Dorian Gray</obra>
+        <biografia>
+            Escritor, poeta y dramaturgo reconocido por su estilo elegante y su crítica social.
+        </biografia>
+    </autor>
+
+    <autor>
+        <id>2</id>
+        <nombre>Octavio Paz</nombre>
+        <nacionalidad>Mexicano</nacionalidad>
+        <nacimiento>1914</nacimiento>
+        <obra>El laberinto de la soledad</obra>
+        <biografia>
+            Poeta, ensayista y diplomático mexicano, ganador del Premio Nobel de Literatura.
+        </biografia>
+    </autor>
+
+    <autor>
+        <id>3</id>
+        <nombre>Antoine de Saint-Exupéry</nombre>
+        <nacionalidad>Francés</nacionalidad>
+        <nacimiento>1900</nacimiento>
+        <obra>El principito</obra>
+        <biografia>
+            Escritor y aviador francés conocido mundialmente por su obra El principito.
+        </biografia>
+    </autor>
+
+</autores>

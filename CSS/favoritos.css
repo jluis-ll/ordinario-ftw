@@ -51,34 +51,43 @@ nav a{
     margin-top: 10px;
 }
 
-.tabla-favoritos{
-    width: 85%;
-    margin: 20px auto 60px;
-    background-color: white;
-    padding: 25px;
-    border-radius: 12px;
+.tabla-favoritos {
+    width: 90%;
+    margin: 40px auto;
 }
 
-.tabla-favoritos table{
+.tabla-favoritos table {
     width: 100%;
     border-collapse: collapse;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
 }
 
-.tabla-favoritos th{
+.tabla-favoritos th {
     background-color: #0d1b2a;
     color: white;
     padding: 15px;
-    text-align: left;
+    font-size: 18px;
+    text-align: center;
 }
 
-.tabla-favoritos td{
-    padding: 14px;
+.tabla-favoritos td {
+    padding: 15px;
+    text-align: center;
     border-bottom: 1px solid #ddd;
     color: #333;
 }
 
-.tabla-favoritos tr:hover{
+.tabla-favoritos tr:hover {
     background-color: #f0f4f8;
+}
+
+.tabla-favoritos img {
+    width: 80px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 footer{
