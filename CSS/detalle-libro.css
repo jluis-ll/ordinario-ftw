@@ -116,3 +116,74 @@ footer{
     text-align: center;
     padding: 20px;
 }
+
+
+
+
+/*AQUI EMPIEZA EL MEDIA QUERY*/
+
+@media(max-width: 768px){
+
+    header{
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    nav{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .logo h1{
+        font-size: 28px;
+    }
+
+    .detalle{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .portada{
+        margin-bottom: 20px;
+    }
+
+    .portada img{
+        width: 250px;
+        height: auto;
+    }
+
+    .informacion{
+        width: 100%;
+        text-align: center;
+    }
+
+    .informacion h2{
+        font-size: 28px;
+    }
+
+    .informacion h3{
+        font-size: 20px;
+    }
+
+    .datos{
+        text-align: left;
+    }
+
+    .descripcion{
+        text-align: justify;
+    }
+
+    .btn-regresar{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    footer{
+        font-size: 14px;
+    }
+}

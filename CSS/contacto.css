@@ -106,3 +106,62 @@ footer {
     padding: 18px;
     margin-top: 40px;
 }
+
+
+
+
+
+/*AQUI EMPIEZA EL MEDIA QUERY*/
+
+@media(max-width: 768px){
+
+    header{
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    nav{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .logo h1{
+        font-size: 28px;
+    }
+
+    .titulo-contacto h2{
+        font-size: 32px;
+    }
+
+    .titulo-contacto p{
+        font-size: 18px;
+    }
+
+    .contenedor-contacto{
+        padding: 20px;
+    }
+
+    .formulario{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .formulario label{
+        font-size: 16px;
+    }
+
+    .formulario input,
+    .formulario textarea{
+        font-size: 14px;
+    }
+
+    .formulario button{
+        width: 100%;
+    }
+
+    footer{
+        font-size: 14px;
+    }
+}

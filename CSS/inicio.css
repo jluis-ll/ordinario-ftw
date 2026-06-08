@@ -124,3 +124,66 @@ footer{
     text-align: center;
     padding: 20px;
 }
+
+
+/*AQUI EMPIEZA EL MEDIA QUERY*/
+
+@media(max-width: 768px){
+
+    header{
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    nav{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .logo h1{
+        font-size: 28px;
+    }
+
+    .bienvenida{
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .texto{
+        width: 100%;
+    }
+
+    .texto h2{
+        font-size: 38px;
+    }
+
+    .texto p{
+        font-size: 18px;
+    }
+
+    .imagen img{
+        width: 250px;
+        margin-top: 20px;
+    }
+
+    .populares{
+        padding: 30px;
+    }
+
+    .contenedor-libros{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .libro{
+        width: 90%;
+        max-width: 300px;
+    }
+
+    footer{
+        font-size: 14px;
+    }
+}

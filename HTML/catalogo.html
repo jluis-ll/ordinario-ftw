@@ -27,18 +27,22 @@
             <h2>Catálogo de libros</h2>
             <p>Explora los libros disponibles en la biblioteca.</p>
         </section>
+
         <section class="busqueda">
-            <input type="text" id="buscarLibro" placeholder="Buscar libro por título...">
+            <input type="text" id="buscarLibro" placeholder="Buscar libro por título, autor, género o año...">
+            <button id="btnBuscar">Buscar</button>
         </section>
+
         <section class="tabla-catalogo">
             <table>
                 <thead>
                     <tr>
                         <th>Portada</th>
-                        <th>Titulo</th>
+                        <th>Título</th>
                         <th>Autor</th>
                         <th>Género</th>
                         <th>Año</th>
+                        <th>Acciones</th>
                     </tr>
                 </thead>
                 <tbody id="tablaLibros"></tbody>

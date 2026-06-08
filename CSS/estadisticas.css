@@ -150,3 +150,64 @@ footer{
     text-align: center;
     padding: 20px;
 }
+
+
+
+
+/*AQUI EMPIEZA EL MEDIA QUERY*/
+
+@media(max-width: 768px){
+
+    header{
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    nav{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .logo h1{
+        font-size: 28px;
+    }
+
+    .titulo-estadisticas h2{
+        font-size: 32px;
+    }
+
+    .titulo-estadisticas p{
+        font-size: 18px;
+    }
+
+    .tarjetas{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .tarjeta{
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .mas-vistos{
+        width: 95%;
+        margin: auto;
+    }
+
+    .barra p,
+    .barra span{
+        font-size: 14px;
+    }
+
+    .progreso{
+        width: 100%;
+    }
+
+    footer{
+        font-size: 14px;
+    }
+}
