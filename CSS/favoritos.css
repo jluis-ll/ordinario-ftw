@@ -141,7 +141,7 @@ footer{
 
 
 
-/*AQUI EMPIEZA EL MEDIA QUERY*/
+/* AQUI EMPIEZA EL MEDIA QUERY */
 
 @media(max-width: 768px){
 
@@ -160,21 +160,8 @@ footer{
         font-size: 28px;
     }
 
-    table{
-        font-size: 14px;
-    }
-
-    th, td{
-        padding: 10px;
-    }
-
     img{
         max-width: 100%;
-    }
-
-    .tabla-favoritos{
-        width: 95%;
-        overflow-x: auto;
     }
 
     .busqueda input{
@@ -185,5 +172,59 @@ footer{
     .busqueda button{
         width: 80%;
         margin-left: 0;
+    }
+
+
+    table,
+    thead,
+    tbody,
+    tr,
+    th,
+    td{
+        display: block;
+    }
+
+    thead{
+        display: none;
+    }
+
+    tr{
+        background-color: white;
+        margin-bottom: 20px;
+        padding: 15px;
+        border-radius: 12px;
+    }
+
+    td{
+        position: relative;
+        padding: 10px 10px 10px 45%;
+        border: none;
+        text-align: left;
+    }
+
+    td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        font-weight: bold;
+    }
+
+    td[data-label="Imagen"]{
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    td[data-label="Imagen"]::before{
+        display: none;
+    }
+
+    td[data-label="Acciones"]{
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    td[data-label="Acciones"]::before{
+        display: none;
     }
 }
