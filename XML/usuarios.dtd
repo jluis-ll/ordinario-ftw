@@ -1,0 +1,6 @@
+<!ELEMENT usuarios (usuario+)>
+
+<!ELEMENT usuario (nombre, correo)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT correo (#PCDATA)>

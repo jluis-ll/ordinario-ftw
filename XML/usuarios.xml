@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE usuarios SYSTEM "usuarios.dtd">
+
+<usuarios>
+    <usuario>
+        <nombre>Luis</nombre>
+        <correo>luis@gmail.com</correo>
+    </usuario>
+
+    <usuario>
+        <nombre>Ana</nombre>
+        <correo>ana@gmail.com</correo>
+    </usuario>
+
+    <usuario>
+        <nombre>Carlos</nombre>
+        <correo>carlos@gmail.com</correo>
+    </usuario>
+
+    <usuario>
+        <nombre>Iker</nombre>
+        <correo>iker@gmail.com</correo>
+    </usuario>
+
+    <usuario>
+        <nombre>Valentina</nombre>
+        <correo>valentina@gmail.com</correo>
+    </usuario>
+
+    <usuario>
+        <nombre>Emmanuel</nombre>
+        <correo>emmanuel@gmail.com</correo>
+    </usuario>
+
+    <usuario>
+        <nombre>Cortes</nombre>
+        <correo>cortes@gmail.com</correo>
+    </usuario>
+
+    <usuario>
+        <nombre>Kendra</nombre>
+        <correo>kendra@gmail.com</correo>
+    </usuario>
+
+    <usuario>
+        <nombre>alonso</nombre>
+        <correo>alonso@gmail.com</correo>
+    </usuario>
+
+</usuarios>

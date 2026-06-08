@@ -18,6 +18,7 @@ fetch("../XML/libros.xml")
         let tituloMayorVista = ""
         let generoMasRepetido = ""
         let generos = {}
+        let librosGuardados = []
 
         for (let i = 0; i < libros.length; i++) {
             let libro = libros[i]
@@ -25,6 +26,12 @@ fetch("../XML/libros.xml")
             let titulo = libro.getElementsByTagName("titulo")[0].textContent
             let genero = libro.getElementsByTagName("genero")[0].textContent
             let vistas = libro.getElementsByTagName("vistas")[0].textContent
+
+            librosGuardados.push({
+                titulo: titulo,
+                genero: genero,
+                vistas: parseInt(vistas)
+            })
 
             if (parseInt(vistas) > mayorVista) {
                 mayorVista = parseInt(vistas)
@@ -36,14 +43,24 @@ fetch("../XML/libros.xml")
             } else {
                 generos[genero]++
             }
+        }
+
+        librosGuardados.sort(function (a, b) {
+            return b.vistas - a.vistas
+        })
+
+        contenedorBarras.innerHTML = ""
+
+        for (let i = 0; i < librosGuardados.length; i++) {
+            let libro = librosGuardados[i]
 
             contenedorBarras.innerHTML += `
                 <div class="barra">
-                    <p>${titulo}</p>
+                    <p>${libro.titulo}</p>
                     <div class="progreso">
-                        <div class="relleno" style="width: ${parseInt(vistas) / 25}%"></div>
+                        <div class="relleno" style="width: ${libro.vistas / 40}%"></div>
                     </div>
-                    <span>${vistas} vistas</span>
+                    <span>${libro.vistas} vistas</span>
                 </div>
             `
         }

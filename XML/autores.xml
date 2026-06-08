@@ -36,4 +36,193 @@
         </biografia>
     </autor>
 
+    <autor>
+    <id>1</id>
+    <nombre>Oscar Wilde</nombre>
+    <nacionalidad>Irlandés</nacionalidad>
+    <nacimiento>1854</nacimiento>
+    <obra>El retrato de Dorian Gray</obra>
+    <biografia>Escritor, poeta y dramaturgo reconocido por su estilo elegante y su crítica social.</biografia>
+</autor>
+
+<autor>
+    <id>2</id>
+    <nombre>Octavio Paz</nombre>
+    <nacionalidad>Mexicano</nacionalidad>
+    <nacimiento>1914</nacimiento>
+    <obra>El laberinto de la soledad</obra>
+    <biografia>Poeta, ensayista y diplomático mexicano, ganador del Premio Nobel de Literatura.</biografia>
+</autor>
+
+<autor>
+    <id>3</id>
+    <nombre>Antoine de Saint-Exupéry</nombre>
+    <nacionalidad>Francés</nacionalidad>
+    <nacimiento>1900</nacimiento>
+    <obra>El principito</obra>
+    <biografia>Escritor y aviador francés conocido mundialmente por su obra El principito.</biografia>
+</autor>
+
+<autor>
+    <id>4</id>
+    <nombre>Hans Christian Andersen</nombre>
+    <nacionalidad>Danés</nacionalidad>
+    <nacimiento>1805</nacimiento>
+    <obra>El Patito Feo</obra>
+    <biografia>Escritor danés famoso por cuentos clásicos como El Patito Feo y La Sirenita.</biografia>
+</autor>
+
+<autor>
+    <id>5</id>
+    <nombre>Charles Perrault</nombre>
+    <nacionalidad>Francés</nacionalidad>
+    <nacimiento>1628</nacimiento>
+    <obra>Caperucita Roja</obra>
+    <biografia>Autor francés considerado uno de los padres de los cuentos de hadas.</biografia>
+</autor>
+
+<autor>
+    <id>6</id>
+    <nombre>Hermanos Grimm</nombre>
+    <nacionalidad>Alemanes</nacionalidad>
+    <nacimiento>1785</nacimiento>
+    <obra>Blancanieves</obra>
+    <biografia>Jacob y Wilhelm Grimm recopilaron cuentos populares europeos.</biografia>
+</autor>
+
+<autor>
+    <id>7</id>
+    <nombre>Carlo Collodi</nombre>
+    <nacionalidad>Italiano</nacionalidad>
+    <nacimiento>1826</nacimiento>
+    <obra>Pinocho</obra>
+    <biografia>Escritor italiano conocido por crear al personaje de Pinocho.</biografia>
+</autor>
+
+<autor>
+    <id>8</id>
+    <nombre>Lewis Carroll</nombre>
+    <nacionalidad>Británico</nacionalidad>
+    <nacimiento>1832</nacimiento>
+    <obra>Alicia en el País de las Maravillas</obra>
+    <biografia>Matemático y escritor inglés reconocido por sus obras fantásticas.</biografia>
+</autor>
+
+<autor>
+    <id>9</id>
+    <nombre>J. M. Barrie</nombre>
+    <nacionalidad>Escocés</nacionalidad>
+    <nacimiento>1860</nacimiento>
+    <obra>Peter Pan</obra>
+    <biografia>Novelista y dramaturgo creador del personaje Peter Pan.</biografia>
+</autor>
+
+<autor>
+    <id>10</id>
+    <nombre>Miguel de Cervantes</nombre>
+    <nacionalidad>Español</nacionalidad>
+    <nacimiento>1547</nacimiento>
+    <obra>Don Quijote de la Mancha</obra>
+    <biografia>Considerado una de las figuras más importantes de la literatura universal.</biografia>
+</autor>
+
+<autor>
+    <id>11</id>
+    <nombre>Homero</nombre>
+    <nacionalidad>Griego</nacionalidad>
+    <nacimiento>-800</nacimiento>
+    <obra>La Odisea</obra>
+    <biografia>Poeta épico de la Antigua Grecia al que se atribuyen La Odisea y La Ilíada.</biografia>
+</autor>
+
+<autor>
+    <id>12</id>
+    <nombre>William Shakespeare</nombre>
+    <nacionalidad>Inglés</nacionalidad>
+    <nacimiento>1564</nacimiento>
+    <obra>Romeo y Julieta</obra>
+    <biografia>Dramaturgo y poeta considerado uno de los mayores escritores de todos los tiempos.</biografia>
+</autor>
+
+<autor>
+    <id>13</id>
+    <nombre>Mary Shelley</nombre>
+    <nacionalidad>Británica</nacionalidad>
+    <nacimiento>1797</nacimiento>
+    <obra>Frankenstein</obra>
+    <biografia>Escritora pionera de la literatura de ciencia ficción.</biografia>
+</autor>
+
+<autor>
+    <id>14</id>
+    <nombre>Bram Stoker</nombre>
+    <nacionalidad>Irlandés</nacionalidad>
+    <nacimiento>1847</nacimiento>
+    <obra>Drácula</obra>
+    <biografia>Novelista reconocido mundialmente por la creación de Drácula.</biografia>
+</autor>
+
+<autor>
+    <id>15</id>
+    <nombre>Herman Melville</nombre>
+    <nacionalidad>Estadounidense</nacionalidad>
+    <nacimiento>1819</nacimiento>
+    <obra>Moby Dick</obra>
+    <biografia>Escritor estadounidense famoso por sus novelas marítimas.</biografia>
+</autor>
+
+<autor>
+    <id>16</id>
+    <nombre>Julio Verne</nombre>
+    <nacionalidad>Francés</nacionalidad>
+    <nacimiento>1828</nacimiento>
+    <obra>Veinte mil leguas de viaje submarino</obra>
+    <biografia>Escritor pionero de la ciencia ficción moderna.</biografia>
+</autor>
+
+<autor>
+    <id>17</id>
+    <nombre>Robert Louis Stevenson</nombre>
+    <nacionalidad>Escocés</nacionalidad>
+    <nacimiento>1850</nacimiento>
+    <obra>La Isla del Tesoro</obra>
+    <biografia>Autor de novelas de aventuras y relatos de gran popularidad.</biografia>
+</autor>
+
+<autor>
+    <id>18</id>
+    <nombre>J. R. R. Tolkien</nombre>
+    <nacionalidad>Británico</nacionalidad>
+    <nacimiento>1892</nacimiento>
+    <obra>El Hobbit</obra>
+    <biografia>Filólogo y escritor considerado el padre de la fantasía moderna.</biografia>
+</autor>
+
+<autor>
+    <id>19</id>
+    <nombre>Mark Twain</nombre>
+    <nacionalidad>Estadounidense</nacionalidad>
+    <nacimiento>1835</nacimiento>
+    <obra>Las aventuras de Tom Sawyer</obra>
+    <biografia>Escritor y humorista reconocido por sus obras ambientadas en el río Misisipi.</biografia>
+</autor>
+
+<autor>
+    <id>20</id>
+    <nombre>Louisa May Alcott</nombre>
+    <nacionalidad>Estadounidense</nacionalidad>
+    <nacimiento>1832</nacimiento>
+    <obra>Mujercitas</obra>
+    <biografia>Novelista estadounidense célebre por sus obras juveniles.</biografia>
+</autor>
+
+<autor>
+    <id>21</id>
+    <nombre>Rudyard Kipling</nombre>
+    <nacionalidad>Británico</nacionalidad>
+    <nacimiento>1865</nacimiento>
+    <obra>El Libro de la Selva</obra>
+    <biografia>Escritor y poeta ganador del Premio Nobel de Literatura.</biografia>
+</autor>
+
 </autores>

@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Favoritos</title>
-    <link rel="stylesheet" href="../CSS/favoritos.css">
+    <title>Usuarios</title>
+    <link rel="stylesheet" href="../CSS/usuarios.css">
 </head>
-
 <body>
     <header>
         <div class="logo">
@@ -24,39 +22,36 @@
         </nav>
     </header>
     <main>
-        <section class="titulo-favoritos">
-            <h2>Libros Favoritos</h2>
-            <p>Lista de tus libros favoritos</p>
+
+        <section class="titulo-usuarios">
+            <h2>Usuarios</h2>
+            <p>Lista de usuarios registrados en la biblioteca digital.</p>
         </section>
 
         <section class="busqueda">
-            <input type="text" id="buscarLibro" placeholder="Buscar libro por título, autor, género o año...">
+            <input type="text" id="buscarUsuario" placeholder="Buscar usuario por nombre o correo electrónico...">
             <button id="btnBuscar">Buscar</button>
         </section>
 
-        <section class="tabla-favoritos">
+        <section class="tabla-usuarios">
             <table>
-                    <thead>
-                        <tr>
-                            <th>Portada</th>
-                            <th>Título</th>
-                            <th>Autor</th>
-                            <th>Género</th>
-                            <th>Año</th>
-                            <th>Vistas</th>
-                            <th>Acciones</th>
-                        </tr>
-                    </thead>
-                    <tbody id="tablaFavoritos"></tbody>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Correo electrónico</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaUsuarios"></tbody>
             </table>
         </section>
     </main>
+
     <footer>
         <p>Biblioteca Digital</p>
     </footer>
 
-    <script src="../JavaScript/favoritos.js"></script>
-
+    <script src="../JavaScript/usuarios.js"></script>
+    
 </body>
 
 </html>

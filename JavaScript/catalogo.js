@@ -35,12 +35,12 @@ function mostrarLibros(libros) {
         let libro = libros[i]
         tabla.innerHTML += `
             <tr>
-                <td><img src="${libro.imagen}" alt="Portada de ${libro.titulo}"></td>
-                <td>${libro.titulo}</td>
-                <td>${libro.autor}</td>
-                <td>${libro.genero}</td>
-                <td>${libro.año}</td>
-                <td>
+                <td data-label="Imagen"><img src="${libro.imagen}" alt="Portada de ${libro.titulo}"></td>
+                <td data-label="Título">${libro.titulo}</td>
+                <td data-label="Autor">${libro.autor}</td>
+                <td data-label="Género">${libro.genero}</td>
+                <td data-label="Año">${libro.año}</td>
+                <td data-label="Acciones">
                     <a href="detalle-libro.html?id=${libro.id}">
                         Ver detalle
                     </a>

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,6 +18,7 @@
             <a href="favoritos.html">Favoritos</a>
             <a href="estadisticas.html">Estadísticas</a>
             <a href="contacto.html">Contacto</a>
+            <a href="usuarios.html">Usuarios</a>
         </nav>
     </header>
     <main>
@@ -26,20 +26,35 @@
             <h2>Contacto</h2>
             <p>Envía tus comentarios o dudas sobre la biblioteca digital.</p>
         </section>
+
         <section class="contenedor-contacto">
             <form class="formulario">
+
                 <label for="nombre">Nombre</label>
                 <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+
                 <label for="correo">Correo electrónico</label>
                 <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com">
+
                 <label for="mensaje">Mensaje</label>
                 <textarea id="mensaje" name="mensaje" rows="6" placeholder="Escribe tu mensaje"></textarea>
-                <button type="submit">Enviar mensaje</button>
+
+                <button type="button" id="btnEnviar">
+                    Enviar mensaje
+                </button>
+
+                <p id="resultadoValidacion"></p>
+
             </form>
         </section>
     </main>
+
     <footer>
         <p>Biblioteca Digital - Proyecto ordinario FTW</p>
     </footer>
+
+    <script src="../JavaScript/contacto.js"></script>
+
 </body>
+
 </html>

@@ -30,6 +30,11 @@ fetch("../XML/libros.xml")
                 imagen: imagen
             })
         }
+
+        librosGuardados.sort(function (a, b) {
+            return b.vistas - a.vistas
+        })
+        
         mostrarLibros(librosGuardados)
     })
 

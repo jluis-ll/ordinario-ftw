@@ -42,4 +42,355 @@
         <descripcion>Relato poético sobre un pequeño príncipe que viaja por distintos planetas y reflexiona sobre la vida.</descripcion>
     </libro>
 
+    <libro>
+    <id>4</id>
+    <titulo>El Patito Feo</titulo>
+    <autor>Hans Christian Andersen</autor>
+    <genero>Cuento</genero>
+    <año>1843</año>
+    <editorial>C.A. Reitzel</editorial>
+    <paginas>32</paginas>
+    <vistas>2200</vistas>
+    <imagen>../IMG/patitofeo.jpg</imagen>
+    <descripcion>Cuento sobre un patito rechazado por ser diferente que descubre su verdadera identidad.</descripcion>
+</libro>
+
+<libro>
+    <id>5</id>
+    <titulo>Caperucita Roja</titulo>
+    <autor>Charles Perrault</autor>
+    <genero>Cuento</genero>
+    <año>1697</año>
+    <editorial>Barbin</editorial>
+    <paginas>24</paginas>
+    <vistas>2100</vistas>
+    <imagen>../IMG/caperucita.jpg</imagen>
+    <descripcion>Historia de una niña que atraviesa el bosque para visitar a su abuela.</descripcion>
+</libro>
+
+<libro>
+    <id>6</id>
+    <titulo>Pulgarcito</titulo>
+    <autor>Charles Perrault</autor>
+    <genero>Cuento</genero>
+    <año>1697</año>
+    <editorial>Barbin</editorial>
+    <paginas>28</paginas>
+    <vistas>1900</vistas>
+    <imagen>../IMG/pulgarcito.jpg</imagen>
+    <descripcion>Relato de un pequeño niño que usa su inteligencia para superar grandes obstáculos.</descripcion>
+</libro>
+
+<libro>
+    <id>7</id>
+    <titulo>Blancanieves</titulo>
+    <autor>Hermanos Grimm</autor>
+    <genero>Cuento</genero>
+    <año>1812</año>
+    <editorial>Grimm Verlag</editorial>
+    <paginas>30</paginas>
+    <vistas>2400</vistas>
+    <imagen>../IMG/blancanieves.jpg</imagen>
+    <descripcion>Una princesa encuentra refugio junto a siete enanos mientras huye de una reina malvada.</descripcion>
+</libro>
+
+<libro>
+    <id>8</id>
+    <titulo>Cenicienta</titulo>
+    <autor>Charles Perrault</autor>
+    <genero>Cuento</genero>
+    <año>1697</año>
+    <editorial>Barbin</editorial>
+    <paginas>26</paginas>
+    <vistas>2500</vistas>
+    <imagen>../IMG/cenicienta.jpg</imagen>
+    <descripcion>Historia de una joven que cambia su destino gracias a su bondad y perseverancia.</descripcion>
+</libro>
+
+<libro>
+    <id>9</id>
+    <titulo>La Bella Durmiente</titulo>
+    <autor>Charles Perrault</autor>
+    <genero>Cuento</genero>
+    <año>1697</año>
+    <editorial>Barbin</editorial>
+    <paginas>25</paginas>
+    <vistas>1800</vistas>
+    <imagen>../IMG/belladurmiente.jpg</imagen>
+    <descripcion>Una princesa cae en un profundo sueño debido a una maldición.</descripcion>
+</libro>
+
+<libro>
+    <id>10</id>
+    <titulo>Hansel y Gretel</titulo>
+    <autor>Hermanos Grimm</autor>
+    <genero>Cuento</genero>
+    <año>1812</año>
+    <editorial>Grimm Verlag</editorial>
+    <paginas>29</paginas>
+    <vistas>1950</vistas>
+    <imagen>../IMG/hanselygretel.jpg</imagen>
+    <descripcion>Dos hermanos se enfrentan a una bruja en una casa hecha de dulces.</descripcion>
+</libro>
+
+<libro>
+    <id>11</id>
+    <titulo>Pinocho</titulo>
+    <autor>Carlo Collodi</autor>
+    <genero>Novela</genero>
+    <año>1883</año>
+    <editorial>Felice Paggi</editorial>
+    <paginas>180</paginas>
+    <vistas>2800</vistas>
+    <imagen>../IMG/pinocho.jpg</imagen>
+    <descripcion>Las aventuras de una marioneta que desea convertirse en un niño real.</descripcion>
+</libro>
+
+<libro>
+    <id>12</id>
+    <titulo>Alicia en el País de las Maravillas</titulo>
+    <autor>Lewis Carroll</autor>
+    <genero>Fantasía</genero>
+    <año>1865</año>
+    <editorial>Macmillan</editorial>
+    <paginas>200</paginas>
+    <vistas>2600</vistas>
+    <imagen>../IMG/alicia.jpg</imagen>
+    <descripcion>Una niña cae en un mundo fantástico lleno de personajes extraordinarios.</descripcion>
+</libro>
+
+<libro>
+    <id>13</id>
+    <titulo>Peter Pan</titulo>
+    <autor>J. M. Barrie</autor>
+    <genero>Fantasía</genero>
+    <año>1911</año>
+    <editorial>Hodder y Stoughton</editorial>
+    <paginas>220</paginas>
+    <vistas>2300</vistas>
+    <imagen>../IMG/peterpan.jpg</imagen>
+    <descripcion>El niño que nunca crece vive aventuras en el País de Nunca Jamás.</descripcion>
+</libro>
+
+<libro>
+    <id>14</id>
+    <titulo>Don Quijote de la Mancha</titulo>
+    <autor>Miguel de Cervantes</autor>
+    <genero>Novela</genero>
+    <año>1605</año>
+    <editorial>Francisco de Robles</editorial>
+    <paginas>863</paginas>
+    <vistas>3500</vistas>
+    <imagen>../IMG/quijote.jpg</imagen>
+    <descripcion>Las aventuras de un hidalgo que confunde la realidad con historias de caballería.</descripcion>
+</libro>
+
+<libro>
+    <id>15</id>
+    <titulo>La Odisea</titulo>
+    <autor>Homero</autor>
+    <genero>Épica</genero>
+    <año>-700</año>
+    <editorial>Grecia Antigua</editorial>
+    <paginas>500</paginas>
+    <vistas>1700</vistas>
+    <imagen>../IMG/odisea.jpg</imagen>
+    <descripcion>Viaje de Ulises para regresar a Ítaca después de la guerra de Troya.</descripcion>
+</libro>
+
+<libro>
+    <id>16</id>
+    <titulo>La Iliada</titulo>
+    <autor>Homero</autor>
+    <genero>Épica</genero>
+    <año>-750</año>
+    <editorial>Grecia Antigua</editorial>
+    <paginas>560</paginas>
+    <vistas>1600</vistas>
+    <imagen>../IMG/iliada.jpg</imagen>
+    <descripcion>Poema épico centrado en la guerra de Troya.</descripcion>
+</libro>
+
+<libro>
+    <id>17</id>
+    <titulo>Romeo y Julieta</titulo>
+    <autor>William Shakespeare</autor>
+    <genero>Tragedia</genero>
+    <año>1597</año>
+    <editorial>First Quarto</editorial>
+    <paginas>190</paginas>
+    <vistas>2900</vistas>
+    <imagen>../IMG/romeoyjulieta.jpg</imagen>
+    <descripcion>Historia de amor entre dos jóvenes pertenecientes a familias enemigas.</descripcion>
+</libro>
+
+<libro>
+    <id>18</id>
+    <titulo>Hamlet</titulo>
+    <autor>William Shakespeare</autor>
+    <genero>Tragedia</genero>
+    <año>1603</año>
+    <editorial>Nicholas Ling</editorial>
+    <paginas>250</paginas>
+    <vistas>2100</vistas>
+    <imagen>../IMG/hamlet.png</imagen>
+    <descripcion>Un príncipe busca vengar la muerte de su padre.</descripcion>
+</libro>
+
+<libro>
+    <id>19</id>
+    <titulo>Frankenstein</titulo>
+    <autor>Mary Shelley</autor>
+    <genero>Ciencia ficción</genero>
+    <año>1818</año>
+    <editorial>Lackington</editorial>
+    <paginas>280</paginas>
+    <vistas>2700</vistas>
+    <imagen>../IMG/frankenstein.jpg</imagen>
+    <descripcion>Un científico crea una criatura que cambia su vida para siempre.</descripcion>
+</libro>
+
+<libro>
+    <id>20</id>
+    <titulo>Drácula</titulo>
+    <autor>Bram Stoker</autor>
+    <genero>Terror</genero>
+    <año>1897</año>
+    <editorial>Archibald Constable</editorial>
+    <paginas>418</paginas>
+    <vistas>2500</vistas>
+    <imagen>../IMG/dracula.jpg</imagen>
+    <descripcion>La historia del famoso conde vampiro de Transilvania.</descripcion>
+</libro>
+
+<libro>
+    <id>21</id>
+    <titulo>Moby Dick</titulo>
+    <autor>Herman Melville</autor>
+    <genero>Aventura</genero>
+    <año>1851</año>
+    <editorial>Harper y Brothers</editorial>
+    <paginas>635</paginas>
+    <vistas>1900</vistas>
+    <imagen>../IMG/mobydick.jpg</imagen>
+    <descripcion>La obsesión del capitán Ahab por capturar una enorme ballena blanca.</descripcion>
+</libro>
+
+<libro>
+    <id>22</id>
+    <titulo>Veinte mil leguas de viaje submarino</titulo>
+    <autor>Julio Verne</autor>
+    <genero>Aventura</genero>
+    <año>1870</año>
+    <editorial>Pierre-Jules Hetzel</editorial>
+    <paginas>426</paginas>
+    <vistas>2100</vistas>
+    <imagen>../IMG/20000leguas.jpg</imagen>
+    <descripcion>Viaje extraordinario a bordo del submarino Nautilus.</descripcion>
+</libro>
+
+<libro>
+    <id>23</id>
+    <titulo>La Isla del Tesoro</titulo>
+    <autor>Robert Louis Stevenson</autor>
+    <genero>Aventura</genero>
+    <año>1883</año>
+    <editorial>Cassell y Company</editorial>
+    <paginas>240</paginas>
+    <vistas>1800</vistas>
+    <imagen>../IMG/tesoro.jpg</imagen>
+    <descripcion>Una emocionante búsqueda de un tesoro escondido por piratas.</descripcion>
+</libro>
+
+<libro>
+    <id>24</id>
+    <titulo>El Hobbit</titulo>
+    <autor>J. R. R. Tolkien</autor>
+    <genero>Fantasía</genero>
+    <año>1937</año>
+    <editorial>George Allen y Unwin</editorial>
+    <paginas>310</paginas>
+    <vistas>4000</vistas>
+    <imagen>../IMG/hobbit.jpg</imagen>
+    <descripcion>Bilbo Bolsón emprende una aventura para recuperar un tesoro custodiado por un dragón.</descripcion>
+</libro>
+
+<libro>
+    <id>25</id>
+    <titulo>Las aventuras de Tom Sawyer</titulo>
+    <autor>Mark Twain</autor>
+    <genero>Aventura</genero>
+    <año>1876</año>
+    <editorial>American Publishing Company</editorial>
+    <paginas>274</paginas>
+    <vistas>1700</vistas>
+    <imagen>../IMG/tomsawyer.jpg</imagen>
+    <descripcion>Relato de las travesuras y aventuras de un joven en el río Misisipi.</descripcion>
+</libro>
+
+<libro>
+    <id>26</id>
+    <titulo>Mujercitas</titulo>
+    <autor>Louisa May Alcott</autor>
+    <genero>Novela</genero>
+    <año>1868</año>
+    <editorial>Roberts Brothers</editorial>
+    <paginas>449</paginas>
+    <vistas>1600</vistas>
+    <imagen>../IMG/mujercitas.jpg</imagen>
+    <descripcion>Historia de cuatro hermanas durante la Guerra Civil estadounidense.</descripcion>
+</libro>
+
+<libro>
+    <id>27</id>
+    <titulo>El Libro de la Selva</titulo>
+    <autor>Rudyard Kipling</autor>
+    <genero>Aventura</genero>
+    <año>1894</año>
+    <editorial>Macmillan</editorial>
+    <paginas>220</paginas>
+    <vistas>2000</vistas>
+    <imagen>../IMG/selva.jpg</imagen>
+    <descripcion>Las aventuras de Mowgli, un niño criado por lobos.</descripcion>
+</libro>
+
+<libro>
+    <id>28</id>
+    <titulo>La Sirenita</titulo>
+    <autor>Hans Christian Andersen</autor>
+    <genero>Cuento</genero>
+    <año>1837</año>
+    <editorial>C.A. Reitzel</editorial>
+    <paginas>35</paginas>
+    <vistas>1900</vistas>
+    <imagen>../IMG/sirenita.jpg</imagen>
+    <descripcion>Una joven sirena sueña con conocer el mundo humano.</descripcion>
+</libro>
+
+<libro>
+    <id>29</id>
+    <titulo>Rapunzel</titulo>
+    <autor>Hermanos Grimm</autor>
+    <genero>Cuento</genero>
+    <año>1812</año>
+    <editorial>Grimm Verlag</editorial>
+    <paginas>27</paginas>
+    <vistas>1750</vistas>
+    <imagen>../IMG/rapunzel.jpg</imagen>
+    <descripcion>Una joven de larga cabellera vive encerrada en una torre.</descripcion>
+</libro>
+
+<libro>
+    <id>30</id>
+    <titulo>El Gato con Botas</titulo>
+    <autor>Charles Perrault</autor>
+    <genero>Cuento</genero>
+    <año>1697</año>
+    <editorial>Barbin</editorial>
+    <paginas>22</paginas>
+    <vistas>1850</vistas>
+    <imagen>../IMG/gatoconbotas.jpg</imagen>
+    <descripcion>Un astuto gato ayuda a su amo a conseguir fortuna y prestigio.</descripcion>
+</libro>
+
 </biblioteca>
