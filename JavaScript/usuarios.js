@@ -3,15 +3,21 @@ let buscador = document.getElementById("buscarUsuario")
 let btnBuscar = document.getElementById("btnBuscar")
 let usuariosGuardados = []
 
-fetch("../XML/usuarios.xml")
-    .then(respuesta => respuesta.text())
-    .then(datos => {
+let solicitud = new XMLHttpRequest()
+
+solicitud.open("GET", "../XML/usuarios.xml", true)
+
+solicitud.onreadystatechange = function () {
+
+    if (solicitud.readyState == 4 && solicitud.status == 200) {
+
         let parser = new DOMParser()
-        let xml = parser.parseFromString(datos, "text/xml")
+        let xml = parser.parseFromString(solicitud.responseText, "text/xml")
 
         let usuarios = xml.getElementsByTagName("usuario")
 
         for (let i = 0; i < usuarios.length; i++) {
+
             let usuario = usuarios[i]
 
             let nombre = usuario.getElementsByTagName("nombre")[0].textContent
@@ -22,33 +28,47 @@ fetch("../XML/usuarios.xml")
                 correo: correo
             })
         }
+
         mostrarUsuarios(usuariosGuardados)
-    })
+    }
+}
+
+solicitud.send()
 
 function mostrarUsuarios(usuarios) {
+
     tabla.innerHTML = ""
+
     for (let i = 0; i < usuarios.length; i++) {
+
         let usuario = usuarios[i]
+
         tabla.innerHTML += `
-                <tr>
-                    <td>${usuario.nombre}</td>
-                    <td>${usuario.correo}</td>
-                </tr>
-            `
+            <tr>
+                <td>${usuario.nombre}</td>
+                <td>${usuario.correo}</td>
+            </tr>
+        `
     }
 }
 
 btnBuscar.addEventListener("click", filtrar)
 
 function filtrar() {
+
     let texto = buscador.value.toLowerCase()
     let resultados = []
+
     for (let i = 0; i < usuariosGuardados.length; i++) {
+
         let usuario = usuariosGuardados[i]
+
         if (usuario.nombre.toLowerCase().includes(texto) ||
             usuario.correo.toLowerCase().includes(texto)) {
+
             resultados.push(usuario)
         }
     }
+
     mostrarUsuarios(resultados)
 }
